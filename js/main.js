@@ -15,6 +15,9 @@ function imgClick(e) {
     //Change current image to src of clicked image
     current.src = e.target.src;
 
+    //Add fade in class
+    current.classList.add('fade-in');
+
     //Change the opacity to opacity var
     e.target.style.opacity = opacity;
 }
