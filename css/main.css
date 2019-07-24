@@ -22,5 +22,10 @@ body {
 .img-main > img, .img-other > img {
   width: 100%;
 }
+.img-other {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
 
 /*# sourceMappingURL=main.css.map */
