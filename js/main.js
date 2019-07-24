@@ -18,6 +18,9 @@ function imgClick(e) {
     //Add fade in class
     current.classList.add('fade-in');
 
+    //Remove fade-in after 0.5 sec
+    setTimeout(() => current.classList.remove('fade-in'), 500);
+
     //Change the opacity to opacity var
     e.target.style.opacity = opacity;
 }
