@@ -19,7 +19,7 @@ body {
   border: 3px solid #fff;
   background: #fff;
 }
-.img-main > img, .img-other > img {
+.img-main-content, .img-other-content {
   width: 100%;
 }
 .img-main {
